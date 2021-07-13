@@ -98,6 +98,43 @@ body {
 /* Players Section  End */
 
 /* Banner Section Start */
+.highlights-mar {
+    margin: 100px 0;
+}
+.highlights-container {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px ;
+}
+.highlights-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 0;
+}
+.highlights-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.highlights-text a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.highlights-text a i {
+    padding-left: 10px;
+}
 /* Banner Section End */
 
 /* Footer Section Start */
@@ -108,7 +145,8 @@ body {
     align-items: center;
 }
 .footer-image img {
-    width: 100%;
+    width: 90%;
+    margin: 40px 0;
 }
 .footer-icon i {
     font-size: 17px;
@@ -124,5 +162,6 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: #000000;
+    margin: 30px 0 50px;
 }
 /* Footer Section End */
