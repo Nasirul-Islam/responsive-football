@@ -8,6 +8,17 @@ body {
     padding: 0;
 }
 
+.full-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 1000px;
+}
+
+
 /*  Common CSS End */
 
 /* ----------------------
@@ -30,7 +41,6 @@ body {
 }
 .banner-text h1 {
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 80px;
@@ -39,7 +49,6 @@ body {
 .banner-text a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -58,10 +67,62 @@ body {
 ------------------------- */
 
 /* Players Section Start */
+
+.players{
+    margin: 50px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 30px;
+}
+.player {
+    padding: 15px;
+    box-shadow: 5px 5px 20px grey;
+}
+.player-image img {
+    width: 100%;
+}
+.player-details h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+.player-details p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
 /* Players Section  End */
 
 /* Banner Section Start */
 /* Banner Section End */
 
 /* Footer Section Start */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-image img {
+    width: 100%;
+}
+.footer-icon i {
+    font-size: 17px;
+    border-radius: 17px;
+    padding: 7px;
+    color: gray;
+    background: lightgray;
+    margin-left: 10px;
+}
+.footer-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
 /* Footer Section End */
