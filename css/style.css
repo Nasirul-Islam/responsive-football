@@ -137,6 +137,46 @@ body {
 }
 /* Banner Section End */
 
+/* popular Section Start */
+.popular h2 {
+    font-size: 24px;
+    color: #562EFF;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.player-details h3 {
+    font-size: 20px;
+    color: #1E1E1E;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.player-info {
+    display: flex;
+    justify-content: space-between;
+}
+.player-info .rating {
+    color: #FFC014;
+    font-size: 12px;
+}
+.player-info .empty {
+    font-size: 12px;
+    color: #AEAEAE;
+}
+.player-info span {
+    font-size: 20px;
+    color: #AEAEAE;
+    font-weight: 700;
+}
+.player-info .football {
+    background-color: rgba(255, 105, 180, 0.322);
+    color: #ED6B4F;
+    padding: 10px;
+    border-radius: 30px;
+}
+/* popular Section end */
+
 /* Footer Section Start */
 .footer {
     display: flex;
