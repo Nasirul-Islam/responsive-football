@@ -266,6 +266,7 @@ body {
     }
     .banner-container {
         grid-template-columns: repeat(2, 1fr);
+        margin: 30px;
     }
     .players {
         grid-template-columns: repeat(2, 1fr);
@@ -275,6 +276,12 @@ body {
     }
     .highlights-container {
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        margin: 30px;
+    }
+    .popular h2 {
+        margin-left: 20px;
+        font-size: 30px;
     }
 }
 
