@@ -55,10 +55,12 @@ body {
     color: #FFFFFF;
     background: #E02C6D;
     padding: 10px 24px;
-    transition: background 0.6s;
+    transition: background .6s, padding .6s;
 }
 .banner-text a:hover {
     background: cornflowerblue;
+    font-size: 22px;
+    padding: 15px 30px;
 }
 .banner-text a i {
     padding-left: 10px;
@@ -135,10 +137,12 @@ body {
     color: #FFFFFF;
     background: #E02C6D;
     padding: 10px 24px;
-    transition: background 0.6s;
+    transition: background .6s, padding .6s;
 }
 .highlights-text a:hover {
     background: cornflowerblue;
+    font-size: 22px;
+    padding: 15px 30px;
 }
 .highlights-text a i {
     padding-left: 10px;
