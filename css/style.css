@@ -147,7 +147,7 @@ body {
 
 /* popular Section Start */
 .popular h2 {
-    font-size: 24px;
+    font-size: 35px;
     color: #562EFF;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -225,8 +225,16 @@ body {
     .container{
         width: 100%;
     }
+    .banner {
+        height: 700px;
+    }
     .banner-container {
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        margin: 50px;
+    }
+    .banner-image img {
+        width: 80%;
     }
     .players {
         grid-template-columns: 1fr;
@@ -236,13 +244,19 @@ body {
     }
     .highlights-container {
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        margin: 50px;
+    }
+    .popular h2 {
+        margin-left: 20px;
+        font-size: 30px;
     }
 }
 
 /* -------------------
     Tablet Device
 ---------------------- */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
     .container{
         width: 100%;
     }
